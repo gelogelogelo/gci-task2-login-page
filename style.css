@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  color: #333470;
+  padding: 25px;
+  box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.2);
+}
+.top-login-container h3 {
+  text-align: center;
+  font-weight: bold;
+}
+input[type="email"],
+input[type="password"] {
+  background: #f5f5fd;
+  height: 50px;
+}
+
+.button_submit {
+  width: 100%;
+  border: none;
+  height: 50px;
+  color: white;
+  background: #333470;
+}
+.button_submit:hover {
+  background: #3d3fad;
+}
+
+.mid-login-container {
+  width: 100%;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.bottom-login-container {
+  width: 100%;
+}
+
+.soc-med-container {
+  display: flex;
+  width: 100%;
+  text-align: center;
+}
+
+.socmed-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  background: #f0f0f1;
+  margin-top: 7px;
+  border-radius: 5px;
+}
+
+.socmed-icon:hover {
+  background: #e0e0f1;
+  cursor: pointer;
+}
+
+.icons {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 60px;
+  top: 5px;
+}
+.icons.microsoft {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.socmed-icon p {
+  margin-top: 7px;
+  margin-right: 3px;
+}
+
+.user-option {
+  display: flex;
+  justify-content: space-between;
+}
+.user-option a {
+  text-decoration: none;
+  color: #333470;
+}
+
+.user-option a:hover {
+  color: #0004ff;
+}
+
+@media (max-width: 768px) {
+  .login-container {
+    width: 70%;
+  }
+  .icons {
+    left: 7rem;
+  }
+  .user-option a {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 425px) {
+  .login-container {
+    width: 90%;
+  }
+  .icons {
+    left: 5px;
+  }
+}
