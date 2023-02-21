@@ -29,10 +29,10 @@ input[type="password"] {
   border: none;
   height: 50px;
   color: white;
-  background: #333470;
+  background: #292951;
 }
 .button_submit:hover {
-  background: #3d3fad;
+  background: #3a3a84;
 }
 
 .mid-login-container {
@@ -82,8 +82,9 @@ input[type="password"] {
 }
 
 .socmed-icon p {
-  margin-top: 7px;
+  margin-top: 9px;
   margin-right: 3px;
+  font-weight: 500;
 }
 
 .user-option {
